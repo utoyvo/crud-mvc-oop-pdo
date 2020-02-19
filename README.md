@@ -4,6 +4,70 @@ A simple and intuitive CRUD system using the MVC pattern in OOP paradigm. To con
 
 ![crud mvc oop pdo](screenshot.png)
 
+## STRUCTURE
+
+```
+├── app
+│   ├── controllers
+|   |   ├── MainController.php
+|   |   ├── PostsController.php
+|   |   └── UsersController.php
+│   ├── models
+|   |   ├── PostsModel.php
+|   |   └── UsersModel.php
+|   └── views
+|       ├── posts
+|       │   ├── add.php
+|       │   ├── edit.php
+|       │   ├── post.php
+|       |   └── posts.php
+|       ├── users
+|       │   ├── edit.php
+|       │   ├── panel.php
+|       │   ├── sign-in.php
+|       │   ├── sign-up.php
+|       │   ├── user.php
+|       |   └── users.php
+|       ├── footer.php
+|       ├── header.php
+|       └── pagination.php
+├── core
+│   ├── classes
+|   │   ├── Controller.php
+|   |   ├── Model.php
+|   |   ├── Sql.php
+|   |   └── ValidationException.php
+│   ├── config
+|   │   ├── database.php
+|   |   └── session.php
+│   ├── helpers
+|   │   ├── Email.php
+|   │   ├── Errors.php
+|   │   ├── File.php
+|   │   ├── Site.php
+|   │   ├── Str.php
+|   │   ├── Time.php
+|   |   └── User.php
+|   └── App.php
+├── public
+│   ├── assets
+│   │   ├── css
+│   │   │   └── style.css
+│   |   └── js
+│   │       └── main.js
+│   └── uploads
+│       └── .empty
+├── .htaccess
+├── LICENSE
+├── README.md
+├── database.sql
+├── error.log
+├── index.php
+├── install.php
+├── screenshot.png
+└── version.json
+```
+
 ## CONFIG
 
 ### Database
