@@ -123,6 +123,15 @@ class Sql
 		return $this;
 	}
 
+	// Or
+	public function or( string $options )
+	{
+		$query_part = 'OR ' . $options;
+		$this->or = $query_part;
+
+		return $this;
+	}
+
 	// Order By
 	public function orderBy( string $options )
 	{
