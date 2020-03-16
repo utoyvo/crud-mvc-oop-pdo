@@ -68,6 +68,27 @@ A simple and intuitive CRUD system using the MVC pattern in OOP paradigm. To con
 └── version.json
 ```
 
+## REQUIREMENTS
+
+### System requirements
+
+- Apache.
+- PHP 7.2.0 or higher.
+
+### PHP extensions
+
+- PHP [Data Objects (PDO)](https://www.php.net/manual/en/book.pdo.php) module for accessing databases.
+- PHP [mbstring](http://php.net/manual/en/book.mbstring.php) module for full UTF-8 support.
+- PHP [gd](http://php.net/manual/en/book.image.php) or [ImageMagick](http://php.net/manual/en/book.imagick.php) module for image processing.
+- PHP [JSON](https://php.net/manual/en/book.json.php) module for JSON manipulation.
+- PHP [Fileinfo](https://www.php.net/manual/en/book.fileinfo.php).
+- PHP [SPL](https://www.php.net/manual/en/book.spl.php).
+- PHP [DOM](https://www.php.net/manual/ru/class.domdocument.php).
+
+### Database
+
+- [MySQL](https://www.mysql.com/) or [MariaDB](https://mariadb.com/).
+
 ## CONFIG
 
 ### Database
